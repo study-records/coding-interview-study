@@ -2,8 +2,8 @@
 //ex) aabbccdde => a2b2c2d2e1
 public class SolJeon{
 	public static void main(String[] args) {
-    String s = args[0];
-
+		String s="";
+		for(int i=0;i<args.length;i++)s+=args[i];
     String compressed = "";
     int count=0;
     for(int i=0;i<s.length();i++){
