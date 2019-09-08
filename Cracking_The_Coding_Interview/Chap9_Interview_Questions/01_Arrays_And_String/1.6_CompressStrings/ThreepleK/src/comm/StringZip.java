@@ -1,4 +1,4 @@
-package app.comm;
+package src.comm;
 
 public class StringZip {
 
@@ -33,6 +33,7 @@ public class StringZip {
             // 비교대상의 char값이 다르면 문자열 합치기 ({알파벳}{중복숫자}..)
             if( curr_char != prev_char ){
                 result += (prev_char +""+ same_cnt);
+                System.out.println( result );
                 same_cnt = 0;
             }
             
