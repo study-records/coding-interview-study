@@ -8,8 +8,7 @@ public class Index {
         System.out.println( "# 문자열 압축" );
 
         StringZip szip = new StringZip();
-        // String str = "aaaaaaaaaaaaabbabkdccccddeeefg";
-        String str = "abcde";
+        String str = "aaaaaaaaaaaaabbabkdccccddeeefg";
         
         System.out.println( "  - 압축 전: "+str );
         System.out.println( "  - 압축 후: "+ szip.exec(str) );
