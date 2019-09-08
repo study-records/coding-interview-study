@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Index",
+            "request": "launch",
+            "mainClass": "app.main.Index"
+        }
+    ]
+}
