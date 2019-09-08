@@ -1,4 +1,4 @@
-//Q3. 문자열에 들어있는 모든 공백을 %20dmfh qkRnsms aptjem wkrtjd
+//Q3. 문자열에 들어있는 모든 공백을 %20으로 바꾸는 함수 작성
 import java.util.Arrays;
 
 public class SolJeon {
