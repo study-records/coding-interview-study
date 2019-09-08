@@ -1,6 +1,6 @@
 //Q1. 문자열이 주어졌을 때 이 문자열에 같은 문자가 중복되어 등장하는지 확인하는 알고리즘
 
-public class SolJeon{
+public class Solution{
 	public static void main(String[] args) {
     //Assume string is all ASCII code
     String s = args[0];

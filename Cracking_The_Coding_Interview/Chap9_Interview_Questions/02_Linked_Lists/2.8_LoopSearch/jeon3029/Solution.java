@@ -8,7 +8,7 @@
 // same running
 //when they meet : loop point!
 
-public class SolJeon{
+public class Solution{
     public static void main(String[] args) {
         //Assume string is all ASCII code
         Node a = new Node('a');
