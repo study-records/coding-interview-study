@@ -9,7 +9,7 @@
     javac -encoding UTF-8 -d ./ ./src/main/Index.java
 > **03. 실행**
 > --
-    java app.main.Index
+    java src.main.Index
   - **01. 경로이동**은 컴파일과 실행하기 위한 과정이며, 이동은 한번이면 됩니다.
   - **02 .컴파일**, **03. 실행**은 이미 경로를 이동하였다면 **01. 경로이동**은 생략해도 됩니다.
 
