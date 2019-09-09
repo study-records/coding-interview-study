@@ -29,7 +29,7 @@
 
   - 콘솔에서 실제 출력하는 픽셀의 정보는 **RGBA**에서 **Alpha**만 출력
 
-# ./src/main/main.java
+# ./src/main/Index.java
   - 1차원 배열에 이미지 정보는 아래와 같음
     > Alpha만 출력하기 때문에 RGB부분은 통일 함  
     > FFFFFF0A, FFFFFF0B, FFFFFF0C, FFFFFF0D,  
