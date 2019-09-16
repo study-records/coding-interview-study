@@ -4,7 +4,7 @@ sidebar:
 categories: docs coding-interview
 ---
 
-Chap 6. 기술적문제
+Chap 7. 기술적문제
 ===============
 # 1. 기술문제 대비
 - 문제를 푸는 훈련을 해야됨. 답을 외우는 것은 도움이 되지 않는다.
