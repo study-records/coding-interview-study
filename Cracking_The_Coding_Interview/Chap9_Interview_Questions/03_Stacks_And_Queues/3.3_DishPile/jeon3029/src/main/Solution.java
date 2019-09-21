@@ -1,6 +1,4 @@
 package main;
-//import structure.Stack;
-//import structure.StackArray;
 
 import structure.Stack;
 import structure.StackArray;
