@@ -1,4 +1,4 @@
-public class CompressString {
+public class TestExmple {
     static String compressString(String string) {
         StringBuilder output = new StringBuilder();
         char[] chars = string.toCharArray();
