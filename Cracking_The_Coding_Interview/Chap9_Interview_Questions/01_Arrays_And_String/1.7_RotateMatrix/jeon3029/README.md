@@ -29,12 +29,12 @@
 >    int first = layer;
 >    int last = n-1-layer;
 >    for(int i=first;i<last;i++){
-	>  	  int offset = i-first;
-	>       int top = matrix[first][i]; //임시 저장
-	>       matrix[first][i] = matrix[last-offset][first];
-	> 	  martix[last-offset][first] = matrix[last][last-offset];
-	>       matrix[last][last-offset] = matrix[i][last];
-	>       matrix[i][last] = top;
-	>    }
-	>  }
+>  	 int offset = i-first;
+>       int top = matrix[first][i]; //임시 저장
+>       matrix[first][i] = matrix[last-offset][first];
+> 	  martix[last-offset][first] = matrix[last][last-offset];
+>       matrix[last][last-offset] = matrix[i][last];
+>       matrix[i][last] = top;
+>    }
+>  }
 > ```
