@@ -2,7 +2,7 @@
 *.class
 *.idea
 *.iml
-
+Untitled.code-workspace
 # Created by https://www.gitignore.io/api/java,linux,macos,windows,eclipse,intellij,code-java,visualstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=java,linux,macos,windows,eclipse,intellij,code-java,visualstudio,visualstudiocode
 
