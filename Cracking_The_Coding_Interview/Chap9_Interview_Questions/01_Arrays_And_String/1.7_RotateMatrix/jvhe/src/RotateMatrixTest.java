@@ -15,20 +15,19 @@ public class RotateMatrixTest {
                 {2, 5, 8},
                 {1, 4, 7}
         };
-//        for (int i = 0; i < matrix.length; i++) {
-//            for (int j = 0; j < matrix.length; j++) {
-//                System.out.printf(matrix[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-
-        RotateMatrix.rotate(matrix);
-        assertThat(matrix, equalTo(output1));
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                System.out.printf(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+        int[][] matrix2 = {
+                {1, 2, 3, 4},
+                {4, 5, 6, 7},
+                {7, 8, 9, 10},
+                {1532, 231, 5531, 223}
+        };
+        int[][] output2 = {
+                {4, 7, 10, 223},
+                {3, 6, 9, 5531},
+                {2, 5, 8, 231},
+                {1, 4, 7, 1532}
+        };
+        assertThat(RotateMatrix.solution(matrix), equalTo(output1));
+        assertThat(RotateMatrix.solution(matrix2), equalTo(output2));
     }
 }
