@@ -1,1 +1,4 @@
-2019-09-08 생성
+# 개념 정리
+#### Array vs List vs ArrayList 차이  
+1. Array
+  
