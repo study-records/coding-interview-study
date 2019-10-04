@@ -53,7 +53,7 @@ public class Solution {
                 answer = p;
                 p = answer.parent;
             }
-            return answer;
+            return p;
         }
     }
 }
